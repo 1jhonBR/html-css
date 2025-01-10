@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+        body {
+            font-family: 'Rubik';
+            background-color: rgba(5, 67, 83, 0.466);
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(122, 122, 122);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.493);
+        }   
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: lightskyblue;
+        }
+        
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 20px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.363);
+        }
+
+        main > #assuntos {
+            background-color: darkgray;
+            text-decoration: underline;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            padding: 1px;
+        }
+
+        article {
+            background-color: rgba(169, 169, 169, 0.158);
+            padding: 5px
+        }
+
+        article > aside {
+            background-color: darkgray;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+            <nav>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+                <a href="#">Link</a>
+            </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes • Política • Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat reprehenderit enim quia, provident reiciendis fuga veritatis magnam voluptates perspiciatis beatae soluta tempore perferendis dicta vel amet quibusdam et, mollitia nulla!</p>
+                    <aside>Artigo escrito por João Paz
+                    </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por João Paz</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
